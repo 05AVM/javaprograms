@@ -1,4 +1,4 @@
-public class arrayprac {
+/*public class arrayprac {
     public static void main(String[] args) {
         int[] nums = {1, 2, 2, 3, 2, 4, 1, 4};
         
@@ -12,4 +12,7 @@ public class arrayprac {
             System.out.println("Count of " + nums[i] + " is: " + count);
         }
     }
-}
+}*/
+
+
+    

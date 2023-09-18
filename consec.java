@@ -1,7 +1,7 @@
 public class consec {
     public static boolean threecons(int[] nums) {
-        for (int var : nums) {
-            if (var % 2 != 0 && var % 2 != 0 && var % 2 != 0) {
+        for (int var=0;var<nums.length-2;var++) {
+            if (nums[var] % 2 != 0 && nums[var+1] % 2 != 0 && nums[var+2] % 2 != 0) {
                 return true;
             }
         }
@@ -12,7 +12,7 @@ public class consec {
         boolean check;
 
         // Create an array and pass it to the threecons method
-        int[] arr = {2,4,6};
+        int[] arr = {2,6,4,1};
         check = threecons(arr);
 
         // Print the result
